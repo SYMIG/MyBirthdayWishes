@@ -1,5 +1,5 @@
 var canvas = new fabric.Canvas('myCanvas');
- var x= document.getElementById('bdayaudio.mp3');
+ var x = document.getElementById('myAudio');
 
 function new_image()
 {
@@ -16,6 +16,6 @@ function new_image()
     });
 }
 
-function playSound(){
+function playMySound(){
 	x.play();
 }
